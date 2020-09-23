@@ -86,8 +86,8 @@
                             </strong><br><br>
 
                             <strong>Pay to the account details below</strong><br>
-                            <strong>Account Name:</strong> Little Miss Damsel Nigeria<br>
-                            <strong>Account number:</strong> 0432091606<br>
+                            <strong>Account Name:</strong> Nigerian teens<br>
+                            <strong>Account number:</strong> 0471161692<br>
                             <strong>Bank:</strong> GT Bank
                         </p>
 
