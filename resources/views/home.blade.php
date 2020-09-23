@@ -266,7 +266,7 @@
                     <div class="text-left text-white">
                         <h3 class="font-24">Vote for the</h3>
                         <h2 class="font-60" style="color: #1fb25a;">Nigerian Teens Competition</h2>
-                        <p style="font-size: 18px;">NOTE: Each vote costs ₦50 Naira, minimum vote is 4500<br><br>
+                        <p style="font-size: 18px;">NOTE: Each vote costs ₦50 Naira,<br><br>
 
                             Step 1: Click on the Contestant you wish to vote for.<br><br>
 
