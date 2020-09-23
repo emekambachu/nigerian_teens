@@ -64,7 +64,7 @@ Contestants
                                         </div>
                                     </div>
                                     <div class="p-a20">
-                                        <h5 style="font-size: 18px;" class="wt-team-title text-uppercase">
+                                        <h5 style="font-size: 13px;" class="wt-team-title text-uppercase">
                                             <a href="{{ route('view-contestant', $con->slug) }}">{{ $con->name }}</a></h5>
                                         <a href="{{ route('view-contestant', $con->slug) }}">
                                             <button class="m-b15 site-button graphical m-r15" type="button">Vote</button>
