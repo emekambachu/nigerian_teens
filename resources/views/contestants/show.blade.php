@@ -131,7 +131,7 @@
                                 <span class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-star"></i></span>
                                     <input class="form-control" minlength="4" name="votes" type="number"
-                                           placeholder="Votes (Minimum 4):*"
+                                           placeholder="Vote as much as you can*"
                                            required="required"></span>
                             </label>
 
