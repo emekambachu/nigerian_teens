@@ -62,7 +62,7 @@ class PaymentController extends Controller
             }
 
             Session::flash('success',  'Payment Successful, your vote has been added');
-            return redirect()->back();
+            return redirect('contestants/voting-complete');
         }
 
         Session::flash('danger',  'Payment Failed, check your account balance or try again');
