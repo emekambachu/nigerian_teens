@@ -91,6 +91,8 @@
                             <strong>Bank:</strong> GT Bank
                         </p>
 
+                        <p style="color: #015432;"><strong>Voting reflects after 4 hours</strong></p>
+
                         <form method="post" action="{{ url('contestant/bank-payment/'.$con->id) }}">
                             @csrf
                             <label class="col-md-6">

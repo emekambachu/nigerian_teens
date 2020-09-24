@@ -464,9 +464,11 @@
                                     <h2>Vote your favorite Nigeria Teen</h2>
 
                                     <h4 class="text-uppercase">Naira Account</h4>
-                                    <p>Name Little miss damsel Nigeria<br>
-                                        Number 0432091606<br>
-                                        Bank GTB</p>
+                                    <p>
+                                        <strong>Account Name:</strong> Nigerian teens<br>
+                                        <strong>Account number:</strong> 0471161692<br>
+                                        <strong>Bank:</strong> GT Bank
+                                    </p>
 
                                     <h4 class="text-uppercase">Dollar Account</h4>
                                     <p>Name Kid Star Models<br>
