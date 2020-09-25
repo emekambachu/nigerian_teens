@@ -46,42 +46,42 @@
 
                     <aside class="side-bar">
                         <h4 style="color: #015432;">Payment Methods: (50 Naira per Vote)</h4>
-                        <p style="color: #015432;"><strong>1) Fill in your details to Pay with Paystack</strong></p>
-                        <img src="{{ asset('main/paystack_logo.png') }}" width="150"/>
+{{--                        <p style="color: #015432;"><strong>1) Fill in your details to Pay with Paystack</strong></p>--}}
+{{--                        <img src="{{ asset('main/paystack_logo.png') }}" width="150"/>--}}
 
-                        <form style="margin-top: 10px;" method="post"
-                              action="{{ url('contestant/paystack/'.$con->id) }}">
-                            @csrf
-                            <label class="col-md-4">
-                                <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                    <input class="form-control" name="accname" type="text"
-                                           value="" placeholder="Full Name:*"
-                                           required="required"></span>
-                            </label>
+{{--                        <form style="margin-top: 10px;" method="post"--}}
+{{--                              action="{{ url('contestant/paystack/'.$con->id) }}">--}}
+{{--                            @csrf--}}
+{{--                            <label class="col-md-4">--}}
+{{--                                <span class="input-group">--}}
+{{--                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>--}}
+{{--                                    <input class="form-control" name="accname" type="text"--}}
+{{--                                           value="" placeholder="Full Name:*"--}}
+{{--                                           required="required"></span>--}}
+{{--                            </label>--}}
 
-                            <label class="col-md-4">
-                                <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                    <input class="form-control" name="email" type="text"
-                                           value="" placeholder="Your email-id:*"
-                                           required="required"></span>
-                            </label>
+{{--                            <label class="col-md-4">--}}
+{{--                                <span class="input-group">--}}
+{{--                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>--}}
+{{--                                    <input class="form-control" name="email" type="text"--}}
+{{--                                           value="" placeholder="Your email-id:*"--}}
+{{--                                           required="required"></span>--}}
+{{--                            </label>--}}
 
-                            <label class="col-md-4">
-                                <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-star"></i></span>
-                                    <input class="form-control" minlength="4" name="votes" type="number"
-                                           placeholder="Votes (Minimum 4):*"
-                                           required="required"></span>
-                            </label>
+{{--                            <label class="col-md-4">--}}
+{{--                                <span class="input-group">--}}
+{{--                                    <span class="input-group-addon"><i class="fa fa-star"></i></span>--}}
+{{--                                    <input class="form-control" minlength="4" name="votes" type="number"--}}
+{{--                                           placeholder="Votes (Minimum 4):*"--}}
+{{--                                           required="required"></span>--}}
+{{--                            </label>--}}
 
-                            <button class="m-b15 site-button green radius-xl m-r15" type="submit">Submit</button>
-                        </form>
+{{--                            <button class="m-b15 site-button green radius-xl m-r15" type="submit">Submit</button>--}}
+{{--                        </form>--}}
 
                         <p style="color: #015432;">
                             <strong>
-                                2) Or Pay to our bank account first, then fill in your details below.
+                                Pay to our bank account first, then fill in your details below.
                                 The votes would be added upon payment approval
                             </strong><br><br>
 
