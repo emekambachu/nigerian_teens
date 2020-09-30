@@ -45,6 +45,12 @@
                 <div class="col-md-7">
 
                     <aside class="side-bar">
+
+                        <div style="font-size: 40px;">
+                            <h4 style="margin-bottom: 5px;" class="title">Voting Closes in:</h4>
+                            <p style="color: #015432;" id="demo"></p>
+                        </div>
+
                         <h4 style="color: #015432;">Payment Methods: (50 Naira per Vote)</h4>
 {{--                        <p style="color: #015432;"><strong>1) Fill in your details to Pay with Paystack</strong></p>--}}
 {{--                        <img src="{{ asset('main/paystack_logo.png') }}" width="150"/>--}}

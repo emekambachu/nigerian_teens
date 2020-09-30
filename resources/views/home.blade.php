@@ -264,8 +264,12 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="text-left text-white">
+                        <div style="font-size: 40px;">
+                            <h4 style="margin-bottom: 5px;" class="title">Voting Closes in:</h4>
+                            <p style="" id="demo"></p>
+                        </div>
                         <h3 class="font-24">Vote for the</h3>
-                        <h2 class="font-60" style="color: #1fb25a;">Nigerian Teens Competition</h2>
+                        <h2 class="font-26" style="color: #1fb25a;">Nigerian Teens Competition</h2>
                         <p style="font-size: 18px;">NOTE: Each vote costs ₦50 Naira,<br><br>
 
                             Step 1: Click on the Contestant you wish to vote for.<br><br>
