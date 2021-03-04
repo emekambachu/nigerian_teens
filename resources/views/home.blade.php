@@ -99,7 +99,7 @@
                          data-paddingleft="[0,0,0,0]"
 
                          style="z-index:13; text-transform:uppercase; font-weight:700;">
-                        <a href="{{ url('registration') }}" class="site-button radius-sm button-lg">Registration</a>
+{{--                        <a href="{{ url('registration') }}" class="site-button radius-sm button-lg">Registration</a>--}}
                     </div>
                     <!-- LAYER NR. 5 -->
 
@@ -195,32 +195,33 @@
                     </div>
                     <!-- LAYER NR. 5 -->
 
-                    <div class="tp-caption tp-resizeme"
-                         id="slide-2939-layer-05"
-                         data-x="['left','left','left','left']" data-hoffset="['240','240','200','200']"
-                         data-y="['middle','middle','top','top']" data-voffset="['180','180','480','400']"
-                         data-width="none"
-                         data-height="none"
-                         data-whitespace="nowrap"
+{{--                    <div class="tp-caption tp-resizeme"--}}
+{{--                         id="slide-2939-layer-05"--}}
+{{--                         data-x="['left','left','left','left']" data-hoffset="['240','240','200','200']"--}}
+{{--                         data-y="['middle','middle','top','top']" data-voffset="['180','180','480','400']"--}}
+{{--                         data-width="none"--}}
+{{--                         data-height="none"--}}
+{{--                         data-whitespace="nowrap"--}}
 
-                         data-type="button"
-                         data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-2939","delay":""}]'
-                         data-responsive_offset="on"
-                         data-responsive="on"
-                         data-frames='[
-                                {"from":"y:100px(R);opacity:0;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeOut"},
-                                {"delay":"wait","speed":1000,"to":"y:-50px;opacity:0;","ease":"Power2.easeInOut"}
-                                ]'
-                         data-textAlign="['left','left','left','left']"
-                         data-paddingtop="[0,0,0,0]"
-                         data-paddingright="[0,0,0,0]"
-                         data-paddingbottom="[0,0,0,0]"
-                         data-paddingleft="[40,40,40,40]"
+{{--                         data-type="button"--}}
+{{--                         data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-2939","delay":""}]'--}}
+{{--                         data-responsive_offset="on"--}}
+{{--                         data-responsive="on"--}}
+{{--                         data-frames='[--}}
+{{--                                {"from":"y:100px(R);opacity:0;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeOut"},--}}
+{{--                                {"delay":"wait","speed":1000,"to":"y:-50px;opacity:0;","ease":"Power2.easeInOut"}--}}
+{{--                                ]'--}}
+{{--                         data-textAlign="['left','left','left','left']"--}}
+{{--                         data-paddingtop="[0,0,0,0]"--}}
+{{--                         data-paddingright="[0,0,0,0]"--}}
+{{--                         data-paddingbottom="[0,0,0,0]"--}}
+{{--                         data-paddingleft="[40,40,40,40]"--}}
 
-                         style="z-index:13; text-transform:uppercase; font-weight:700;">
-                        <a href="{{ route('vote-contestants.index') }}" class="site-button-secondry radius-sm button-lg">
-                            Vote Contestants</a>
-                    </div>
+{{--                         style="z-index:13; text-transform:uppercase; font-weight:700;">--}}
+{{--                        <a href="{{ route('vote-contestants.index') }}" class="site-button-secondry radius-sm button-lg">--}}
+{{--                            Vote Contestants</a>--}}
+{{--                    </div>--}}
+
                 </li>
 
             </ul>
@@ -256,41 +257,41 @@
         </div>
     </div>
 
-    <div class="section-full p-t50 p-b50 overlay-wraper bg-parallax" data-stellar-background-ratio="0.5"
-         style="background-image: url(&quot;{{ asset('main/bg3.jpg') }}&quot;);
-             background-position: 50% -671.05px;">
-        <div class="overlay-main opacity-07 bg-black"></div>
-        <div class="container ">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="text-left text-white">
+{{--    <div class="section-full p-t50 p-b50 overlay-wraper bg-parallax" data-stellar-background-ratio="0.5"--}}
+{{--         style="background-image: url(&quot;{{ asset('main/bg3.jpg') }}&quot;);--}}
+{{--             background-position: 50% -671.05px;">--}}
+{{--        <div class="overlay-main opacity-07 bg-black"></div>--}}
+{{--        <div class="container ">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-md-8">--}}
+{{--                    <div class="text-left text-white">--}}
 {{--                        <div style="font-size: 40px;">--}}
 {{--                            <h4 style="margin-bottom: 5px;" class="title">Voting Closes in:</h4>--}}
 {{--                            <p style="" id="demo"></p>--}}
 {{--                        </div>--}}
-                        <h3 class="font-24">Vote for the</h3>
-                        <h2 class="font-26" style="color: #1fb25a;">Nigerian Teens Competition</h2>
-                        <p style="font-size: 18px;">NOTE: Each vote costs ₦50 Naira,<br><br>
+{{--                        <h3 class="font-24">Vote for the</h3>--}}
+{{--                        <h2 class="font-26" style="color: #1fb25a;">Nigerian Teens Competition</h2>--}}
+{{--                        <p style="font-size: 18px;">NOTE: Each vote costs ₦50 Naira,<br><br>--}}
 
-                            Step 1: Click on the Contestant you wish to vote for.<br><br>
+{{--                            Step 1: Click on the Contestant you wish to vote for.<br><br>--}}
 
-                            Step 2: Pick a payment method, Paystack or Bank payment/Transfer.<br><br>
+{{--                            Step 2: Pick a payment method, Paystack or Bank payment/Transfer.<br><br>--}}
 
-                            Step 3: If you choose paystack, click on the paystack icon and you will be directed to the payment page. Fill in your details and the amount of money you would like to spend on voting. Each vote cost 50 naira and the minimum votes is 4500.<br><br>
+{{--                            Step 3: If you choose paystack, click on the paystack icon and you will be directed to the payment page. Fill in your details and the amount of money you would like to spend on voting. Each vote cost 50 naira and the minimum votes is 4500.<br><br>--}}
 
-                            Step 4: If you choose to pay via bank payment or transfer, ignore the paystack. First pay your equivalent amount to our account number given on the vote page and fill in your payment details in the form and vote, your vote will be added once payment has been approved. </p>
-                    </div>
-                    <a href="{{ route('vote-contestants.index') }}">
-                        <button class="m-b15 site-button graphical m-r15" type="button">Vote Contestants</button>
-                    </a>
-                </div>
+{{--                            Step 4: If you choose to pay via bank payment or transfer, ignore the paystack. First pay your equivalent amount to our account number given on the vote page and fill in your payment details in the form and vote, your vote will be added once payment has been approved. </p>--}}
+{{--                    </div>--}}
+{{--                    <a href="{{ route('vote-contestants.index') }}">--}}
+{{--                        <button class="m-b15 site-button graphical m-r15" type="button">Vote Contestants</button>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
 
-                <div class="col-md-4">
-                </div>
+{{--                <div class="col-md-4">--}}
+{{--                </div>--}}
 
-            </div>
-        </div>
-    </div>
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
     <div class="section-full p-t80 p-b80 bg-white" id="content1">
         <div class="container">
@@ -474,14 +475,14 @@
                                         <strong>Bank:</strong> GT Bank
                                     </p>
 
-                                    <h4 class="text-uppercase">Dollar Account</h4>
-                                    <p>Name Kid Star Models<br>
-                                        Number 0602818794<br>
-                                        Bank GTB</p>
+{{--                                    <h4 class="text-uppercase">Dollar Account</h4>--}}
+{{--                                    <p>Name Kid Star Models<br>--}}
+{{--                                        Number 0602818794<br>--}}
+{{--                                        Bank GTB</p>--}}
 
-                                    <a href="{{ route('vote-contestants.index') }}"
-                                       class="site-button text-uppercase radius-sm font-weight-500 button-lg">
-                                        Vote Contestants</a>
+{{--                                    <a href="{{ route('vote-contestants.index') }}"--}}
+{{--                                       class="site-button text-uppercase radius-sm font-weight-500 button-lg">--}}
+{{--                                        Vote Contestants</a>--}}
                                 </div>
                             </div>
                             <div class="clearfix"></div>

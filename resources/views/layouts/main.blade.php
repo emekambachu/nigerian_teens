@@ -185,7 +185,7 @@
                             <h4 class="widget-title">Useful links</h4>
                             <ul>
                                 <li><a href="{{ url('/') }}">Home</a></li>
-                                <li><a href="{{ route('vote-contestants.index') }}">Contestants</a></li>
+{{--                                <li><a href="{{ route('vote-contestants.index') }}">Contestants</a></li>--}}
                                 <li><a href="{{ url('gallery') }}">Gallery</a></li>
                                 <li><a href="{{ url('contact') }}">Contacts</a></li>
                             </ul>
