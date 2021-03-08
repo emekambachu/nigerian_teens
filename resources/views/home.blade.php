@@ -473,6 +473,25 @@
                                         <strong>Account Name:</strong> Nigerian teens<br>
                                         <strong>Account number:</strong> 0471161692<br>
                                         <strong>Bank:</strong> GT Bank
+                                    </p><br>
+
+                                    <h4 class="text-uppercase">Procedure</h4>
+                                    <p>
+                                        Step 1: Mode of payment<br>
+                                        * Pay a non-refundable fee of #5,000 Naira to the GTbank<br>
+                                        * You can pay to the school management.<br>
+                                        * You can also pay at the pickup form outlet
+                                    </p><br>
+
+                                    <h4 class="text-uppercase">Criteria</h4>
+                                    <p>
+                                        * All participants must be between the ages of 13 and 18 years old<br>
+                                        * Be Nigerian citizens<br>
+                                        * Be of good health and character<br>
+                                        * Speak fluent english<br>
+                                        * 2 recent photographs (One passport and one full length picture)<br>
+                                        PLEASE NOTE THAT PICTURES WILL NOT BE RETURNED.  VISIT ANY PROFESSIONAL PHOTOGRAPHY
+                                        STUDIO FOR A GOOD QUALITY PICTURES THAT MEETS OUR STANDARDS.
                                     </p>
 
 {{--                                    <h4 class="text-uppercase">Dollar Account</h4>--}}
