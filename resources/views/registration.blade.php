@@ -222,7 +222,7 @@
                                     5. Why did you choose to be part of Nigerian teena
                                     <span class="ttm-form-control">
                                 <input class="form-control" name="question5" type="text"
-                                       placeholder="Why did you choose to be part of Little Miss Damsel Nigeria:*" required></span>
+                                       placeholder="Why did you choose to be part of Nigerian Teens:*" required></span>
                                 </label>
 
                                 <label class="col-md-6">
