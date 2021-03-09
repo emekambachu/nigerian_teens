@@ -219,7 +219,7 @@
                                 </label>
 
                                 <label class="col-md-12">
-                                    5. Why did you choose to be part of Little Miss Damsel Nigeria
+                                    5. Why did you choose to be part of Nigerian teena
                                     <span class="ttm-form-control">
                                 <input class="form-control" name="question5" type="text"
                                        placeholder="Why did you choose to be part of Little Miss Damsel Nigeria:*" required></span>
@@ -274,13 +274,13 @@
                                 </label>
 
                                 <label class="col-md-4">
-                                    I HEREBY AGREE THAT THE INFORMATION PROVIDED ABOVE IS TRUE AND ACCURATE AND WOULD LIKE TO BE INCLUDED IN THIS YEAR'S LMDN BEAUTY PAGEANT
+                                    I HEREBY AGREE THAT THE INFORMATION PROVIDED ABOVE IS TRUE AND ACCURATE AND WOULD LIKE TO BE INCLUDED IN THIS YEAR'S NIGERIAN TEENS BEAUTY PAGEANT
                                     <span class="form-control">
                                         <input class="form-control" name="terms1" type="checkbox" value="Yes" required="required"></span>
                                 </label>
 
                                 <label class="col-md-4">
-                                    I HEREBY AGREE THAT AT THE TIME OF THE SUBMISSION OF THIS APPLICATION, I AM AT LEAST 7 YEARS OLD AND NOT OLDER THAN 12 YEARS OLD
+                                    I HEREBY AGREE THAT AT THE TIME OF THE SUBMISSION OF THIS APPLICATION, I AM AT LEAST 13 YEARS OLD AND NOT OLDER THAN 18 YEARS OLD
                                     <span class="form-control">
                                         <input class="form-control" name="terms2" type="checkbox" value="Yes" required="required"></span>
                                 </label>
