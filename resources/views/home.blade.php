@@ -254,6 +254,34 @@
                 </div>
 
             </div>
+
+            <div class="row" style="margin-top: 30px;">
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="about-com-pic">
+                        <img src="{{ asset('main/home/girl1.jpg') }}" alt="" class="img-responsive">
+                    </div>
+                    <h4>Queen Gabriella Adenla </h4>
+                    <h4>Crowned Queen</h4>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="about-com-pic">
+                        <img src="{{ asset('main/home/girl2.jpg') }}" alt="" class="img-responsive">
+                    </div>
+                    <h4>Queen Divine EGWURUGWU</h4>
+                    <h4>1st Runner</h4>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="about-com-pic">
+                        <img src="{{ asset('main/home/girl3.jpg') }}" alt="" class="img-responsive">
+                    </div>
+                    <h4>Queen SOMACHI OBIORA</h4>
+                    <h4>2nd Runner</h4>
+                </div>
+
+            </div>
         </div>
     </div>
 
