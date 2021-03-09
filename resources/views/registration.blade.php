@@ -286,7 +286,7 @@
                                 </label>
 
                                 <label class="col-md-4">
-                                    I HEREBY AGREE TO BE BOUND BY THE TERMS AND CONDITIONS STATED IN THE ELIGIBILITY CRITERIA FOR THE LMDN BEAUTY PAGEANT
+                                    I HEREBY AGREE TO BE BOUND BY THE TERMS AND CONDITIONS STATED IN THE ELIGIBILITY CRITERIA FOR THE Nigerian Teens BEAUTY PAGEANT
                                     <span class="form-control">
                                         <input class="form-control" name="terms3" type="checkbox" value="Yes" required="required"></span>
                                 </label>

@@ -267,7 +267,7 @@
 
                 <div class="col-md-4 col-sm-4">
                     <div class="about-com-pic">
-                        <img src="{{ asset('main/home/girl2.jpg') }}" alt="" class="img-responsive">
+                        <img src="{{ asset('main/home/girl3.jpg') }}" alt="" class="img-responsive">
                     </div>
                     <h4>Queen Divine EGWURUGWU</h4>
                     <h4>1st Runner</h4>
@@ -275,7 +275,7 @@
 
                 <div class="col-md-4 col-sm-4">
                     <div class="about-com-pic">
-                        <img src="{{ asset('main/home/girl3.jpg') }}" alt="" class="img-responsive">
+                        <img src="{{ asset('main/home/girl2.jpg') }}" alt="" class="img-responsive">
                     </div>
                     <h4>Queen SOMACHI OBIORA</h4>
                     <h4>2nd Runner</h4>
@@ -494,7 +494,6 @@
                         <div class="special-offer radius p-tb60">
                             <div class="wt-left-part special-offer-in">
                                 <div class="wt-box p-r100 text-white">
-                                    <h2>Vote your favorite Nigeria Teen</h2>
 
                                     <h4 class="text-uppercase">Naira Account</h4>
                                     <p>
