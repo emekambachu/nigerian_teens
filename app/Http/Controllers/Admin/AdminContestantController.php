@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
 use Intervention\Image\Facades\Image;
+use Illuminate\Support\Facades\File;
 
 class AdminContestantController extends Controller
 {
@@ -285,6 +286,42 @@ class AdminContestantController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $contestant = Contestant::findOrFail($id);
+
+        if (!empty($contestant->image) && File::exists(public_path() . '/photos/' . $contestant->image)) {
+            FILE::delete(public_path() . '/photos/' . $contestant->image);
+        }
+
+        $contestant->delete();
+
+        Session::flash('warning', 'Contestant deleted');
+        return redirect()->back();
+    }
+
+    public function deleteContestants(){
+
+        $contestants = Contestant::all();
+
+        foreach($contestants as $contestant){
+
+            if (!empty($contestant->image) && File::exists(public_path() . '/photos/' . $contestant->image)) {
+                FILE::delete(public_path() . '/photos/' . $contestant->image);
+            }
+
+            $contestant->delete();
+        }
+
+        return "Contestants Deleted";
+    }
+
+    public function deletePayments(){
+
+        $payments = Payment::all();
+
+        foreach($payments as $payment){
+            $payment->delete();
+        }
+
+        return "Payments Deleted";
     }
 }

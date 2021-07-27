@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GithubDeploymentController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -68,6 +69,9 @@ Route::get('admin/payments', 'Admin\AdminContestantController@payments');
 Route::post('admin/payments/approve/{id}', ['uses' => 'Admin\AdminContestantController@approve']);
 Route::get('admin/search-payments', 'Admin\AdminContestantController@searchPayments');
 
+Route::get('admin/delete-contestants', 'Admin\AdminContestantController@deleteContestants');
+Route::get('admin/delete-payments', 'Admin\AdminContestantController@deletePayments');
+
 // Fund User Form
 Route::post('/admin/applications/approve/{id}', ['uses' => 'ApplicationController@approve']);
 
@@ -81,3 +85,5 @@ Route::get('registration-complete', static function () {
     return view('registration-complete');
 });
 
+//Github Deployment
+Route::post('github/deploy', [GithubDeploymentController::class, 'deploy']);
