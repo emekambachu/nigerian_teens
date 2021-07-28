@@ -112,14 +112,6 @@
                             <label class="col-md-6">
                                 <span class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-bank"></i></span>
-                                    <input class="form-control" name="accnum" type="text"
-                                           value="" placeholder="Account Number:*"
-                                           required="required"></span>
-                            </label>
-
-                            <label class="col-md-6">
-                                <span class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-bank"></i></span>
                                     <input class="form-control" name="bankname" type="text"
                                            value="" placeholder="Bank Name:*"
                                            required="required"></span>
