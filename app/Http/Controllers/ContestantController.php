@@ -14,8 +14,7 @@ class ContestantController extends Controller
      *
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function index()
-    {
+    public function index(){
         $contestants = Contestant::orderBy('created_at', 'desc')->paginate(15);
         return view('contestants.index', compact('contestants'));
     }
